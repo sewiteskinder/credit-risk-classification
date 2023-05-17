@@ -7,8 +7,13 @@ The module's performance was evaluated by finding the balanced accuracy score, a
 
 ## Results
 - The balanced accuracy score gave a 94% accuracy rating for the module
+- The confusion matrix predicted a high number of accurate low risk and accurate high risk borrowers, and low numbers for the inaccurately predicted borrowers
 - The precision score for healthy loan labels was 100%, and for the unhealthy loans/high-risk loans was 87%
 - The recall score for healthy loan labels was 100%, and for the unhealthy/high-risk loans was 89%
 
 ## Summary
 I would recommend the LR Model with Original Data, especially when predicting a healthy loan user. For the healthy loan user (0), it gave perfect predictions when using the module. For the unhealthy loan user (1), there still was a high prediction accuracy, but not as high as for the healthy loan user.
+
+
+## Source Code
+The majority of the code came and was built from previous class examples, and my tutor helped me visualize the Confusion Matrix to further understand the prediction module.
